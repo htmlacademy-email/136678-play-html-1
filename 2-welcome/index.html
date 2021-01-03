@@ -75,12 +75,21 @@
         width: 288px !important;
       }
 
-      .mobile-content-p16b {
-        padding-bottom: 16px !important;
+      .column {
+        float: none !important;
+        width: 100% !important;
       }
 
-      .mobile-content-p16t {
-        padding-top: 16px !important;
+      .mobile-content-p0r {
+        padding-right: 0px !important;
+      }
+
+      .mobile-content-p0l {
+        padding-left: 0px !important;
+      }
+
+      .mobile-content-p16b {
+        padding-bottom: 16px !important;
       }
 
       .mobile-content-p16r {
@@ -91,6 +100,14 @@
         padding-left: 16px !important;
       }
 
+      .mobile-content-p24b {
+        padding-bottom: 24px !important;
+      }
+
+      .mobile-content-p24t {
+        padding-top: 24px !important;
+      }
+
       .mobile-content-p32b {
         padding-bottom: 32px !important;
       }
@@ -98,19 +115,6 @@
       .mobile-content-p40t {
         padding-top: 40px !important;
       }
-
-      .mobile-content-p12r {
-        padding-right: 10px !important;
-      }
-
-      .mobile-content-p12l {
-        padding-left: 10px !important;
-      }
-
-      .mobile-content-p24l {
-        padding-left: 24px !important;
-      }
-
     }
 
     #outlook a {
@@ -629,13 +633,14 @@
 
           <!--  Футер  -->
           <tr>
-            <td style="padding-top:8px;padding-right:32px;padding-left:32px;padding-bottom:32px;">
+            <td class="mobile-content-p16r mobile-content-p16l mobile-content-p24b"
+                style="padding-top:8px;padding-right:32px;padding-left:32px;padding-bottom:32px;">
               <!--[if mso]>
               <table style="width:536px" cellpadding="0" cellspacing="0">
                 <tr>
                   <td style="width:284px" valign="top">
               <![endif]-->
-              <table align="left" cellpadding="0" cellspacing="0" border="0" style="float:left;">
+              <table class="column" align="left" cellpadding="0" cellspacing="0" border="0" style="float:left;">
                 <tr>
                   <td style="width:284px;padding-bottom:18px;">
                     <h2 style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;
@@ -699,7 +704,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td>
+                  <td class="mobile-content-p32b">
                     <a href="tel:88006907668" target="_blank" title="Наш телефон"
                        style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;
                        font-family:'trebuchet ms', tahoma, sans-serif;font-size:14px;line-height:16px;text-decoration:none;color:#13d6c3;"
@@ -714,7 +719,7 @@
               <td style="width:252px" valign="top">
               <![endif]-->
 
-              <table align="right" cellpadding="0" cellspacing="0" border="0" style="float:right;">
+              <table class="column" align="right" cellpadding="0" cellspacing="0" border="0" style="float:right;">
                 <tr>
                   <td style="width:252px;padding-bottom:18px;">
                     <h2 style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;
@@ -776,34 +781,41 @@
 
           <!-- Пользовательское соглашение  -->
           <tr>
-            <td style="Margin:0px;padding:0px;padding-right:32px;padding-left:32px;">
+            <td class="mobile-content-p0r mobile-content-p0l" style="Margin:0px;padding:0px;padding-right:16px;padding-left:16px;">
               <table width="100%" cellspacing="0" cellpadding="0" border="0">
                 <tr>
-                  <td style="Margin:0px;padding:0px;padding-top:32px;padding-bottom:14px;border-top: 1px solid #e0e0e0;">
-                    <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;
-                    font-size:11px;line-height:13px;text-align:justify;color:#828282;">
-                      Вы&nbsp;получили это письмо, так как являетесь пользователем портала HTMLPlay. Рассылка производится в&nbsp;соответствии
-                      с&nbsp;пользовательским соглашением. Если вы&nbsp;не&nbsp;хотите получать рассылку, вы&nbsp;можете
-                      <a href="#" target="_blank" title="Форма отписки"
-                         style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;
+                  <td>
+                    <table width="100%" cellspacing="0" cellpadding="0" border="0"
+                           style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-spacing:0px;border-top: 1px solid #e0e0e0;">
+                      <tr>
+                        <td class="mobile-content-p24t" style="Margin:0px;padding-top:32px;padding-bottom:14px;padding-right:16px;padding-left:16px;">
+                          <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;
+                          font-size:11px;line-height:13px;text-align:justify;color:#828282;">
+                            Вы&nbsp;получили это письмо, так как являетесь пользователем портала HTMLPlay. Рассылка производится в&nbsp;соответствии
+                            с&nbsp;пользовательским соглашением. Если вы&nbsp;не&nbsp;хотите получать рассылку, вы&nbsp;можете
+                            <a href="#" target="_blank" title="Форма отписки"
+                               style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;
                          font-size:11px;text-decoration:underline;color:#828282;"
-                      >отписаться</a>
-                      или
-                      <a href="#" target="_blank" title="Настройка параметоров рассылки"
-                         style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;
+                            >отписаться</a>
+                            или
+                            <a href="#" target="_blank" title="Настройка параметоров рассылки"
+                               style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;
                          font-size:11px;text-decoration:underline;color:#828282;"
-                      >настроить параметры</a>.</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td style="Margin:0;padding:0;padding-bottom:32px;">
-                    <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:11px;
+                            >настроить параметры</a>.</p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="Margin:0;padding:0;padding-bottom:32px;padding-right:16px;padding-left:16px;">
+                          <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-size:11px;
                     font-family:'trebuchet ms', tahoma, sans-serif;line-height:13px;text-align:justify;color:#828282;">
-                      Если письмо отображается некорректно или вы&nbsp;хотите им&nbsp;поделиться,
-                      <a href="#" target="_blank" title="Веб-версия письма"
-                         style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;
+                            Если письмо отображается некорректно или вы&nbsp;хотите им&nbsp;поделиться,
+                            <a href="#" target="_blank" title="Веб-версия письма"
+                               style="-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', tahoma, sans-serif;
                          font-size:11px;text-decoration:underline;color:#828282;">жмите сюда</a>.
-                    </p>
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
                   </td>
                 </tr>
               </table>
